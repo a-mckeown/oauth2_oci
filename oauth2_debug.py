@@ -1,5 +1,5 @@
 from flask import Flask, request, redirect, render_template, url_for, jsonify
-import requests # For HTTP Requests
+import requests # For the HTTP Requests
 import json
 import jwt  # PyJWT for decoding ID tokens
 from urllib.parse import urlencode
