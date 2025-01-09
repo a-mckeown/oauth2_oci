@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Configuration</title>
+</head>
+<body>
+    <h1>OAuth 2.0 Configuration</h1>
+    <form method="post">
+        <label for="client_id">Client ID:</label><br>
+        <input type="text" id="client_id" name="client_id" value="{{ config.client_id }}"><br><br>
+        <label for="client_secret">Client Secret:</label><br>
+        <input type="text" id="client_secret" name="client_secret" value="{{ config.client_secret }}"><br><br>
+        <label for="auth_url">Authorization URL:</label><br>
+        <input type="text" id="auth_url" name="auth_url" value="{{ config.auth_url }}"><br><br>
+        <label for="token_url">Token URL:</label><br>
+        <input type="text" id="token_url" name="token_url" value="{{ config.token_url }}"><br><br>
+        <label for="userinfo_endpoint">UserInfo Endpoint:</label><br>
+        <input type="text" id="userinfo_endpoint" name="userinfo_endpoint" value="{{ config.userinfo_endpoint }}"><br><br>
+        <button type="submit">Update Configuration</button>
+    </form>
+</body>
+</html>
