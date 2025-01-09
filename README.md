@@ -1,4 +1,8 @@
-An OAUTH2 and Open connect debugger in Python.
+An OAUTH2 and Open connect web based debugger in Python.
+
+The project was to introduce the concepts of OAUTH2 and Open Connect, with the various terminologies and keywords used in OAUTH2.
+
+
 
 
 ```yaml
