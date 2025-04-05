@@ -6,7 +6,7 @@ The project was to introduce the concepts of OAUTH2 and Open Connect, with the v
 
 
 ```yaml
-The required values for testing:
+These are the required values for testing:
 
 client_id: A unique identifier for your app, issued by the IdP.
 client_secret: A secret key used to authenticate your app (keep it secure).
